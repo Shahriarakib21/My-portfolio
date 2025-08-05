@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shahriar Akib - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <i class="fas fa-code"></i>
+        <span>Shahriar Akib</span>
+      </div>
+      <ul class="nav-menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="assets/Akib.cv.pdf" download class="cv-btn">Download CV</a></li>
+      </ul>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-container">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1>Hi, I'm <span class="highlight">Shahriar Akib</span></h1>
+          <h2>Computer Science Graduate & Tech Enthusiast</h2>
+          <p>Passionate about creating innovative technology solutions and building meaningful applications that make a difference.</p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+            <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="assets/Akib.jpeg" alt="Shahriar Akib - Professional Headshot" class="profile-img">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>Hello! I'm <strong>Shahriar Akib</strong>, a passionate Computer Science graduate and technology enthusiast with a deep-rooted love for innovation and problem-solving. My journey in the world of technology began with an insatiable curiosity about how digital systems work and how they can be leveraged to create meaningful solutions that impact people's lives.</p>
+          
+          <p>I completed my Computer Science degree with a strong foundation in both theoretical concepts and practical applications. Throughout my academic journey, I developed a comprehensive understanding of programming languages, database management, web development, and software engineering principles.</p>
+          
+          <p>What drives me most is the endless possibilities that technology offers to solve real-world problems. I believe that every line of code has the potential to create something meaningful - whether it's a simple application that makes someone's day easier or a complex system that transforms entire industries.</p>
+          
+          <p>My technical skill set encompasses both front-end and back-end development, with proficiency in multiple programming languages including Python, Java, and PHP. I have extensive experience with web technologies such as HTML, CSS, and JavaScript, and I'm well-versed in database management systems including SQL and MongoDB.</p>
+          
+          <p>I approach every technical challenge with a systematic methodology that begins with thorough analysis and requirement gathering. I believe in the importance of understanding the problem completely before diving into solutions. My process involves breaking down complex problems into manageable components, researching best practices and existing solutions, and then implementing efficient, scalable, and maintainable code.</p>
+          
+          <p>Looking forward, I'm excited about the opportunity to contribute to innovative projects that push the boundaries of what's possible with technology. I'm particularly interested in areas such as artificial intelligence, machine learning, and full-stack development.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <div class="container">
+      <h2 class="section-title">Skills & Expertise</h2>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3><i class="fas fa-code"></i> Programming Languages</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">Java</span>
+            <span class="skill-tag">PHP</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">HTML</span>
+            <span class="skill-tag">CSS</span>
+          </div>
+        </div>
+        
+        <div class="skill-category">
+          <h3><i class="fas fa-database"></i> Databases & Tools</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">SQL</span>
+            <span class="skill-tag">MongoDB</span>
+            <span class="skill-tag">MySQL</span>
+            <span class="skill-tag">XAMPP</span>
+            <span class="skill-tag">Docker</span>
+          </div>
+        </div>
+        
+        <div class="skill-category">
+          <h3><i class="fas fa-tools"></i> Development Tools</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">Figma</span>
+            <span class="skill-tag">Canva</span>
+            <span class="skill-tag">Microsoft Office</span>
+            <span class="skill-tag">Excel</span>
+          </div>
+        </div>
+        
+        <div class="skill-category">
+          <h3><i class="fas fa-users"></i> Soft Skills</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Communication</span>
+            <span class="skill-tag">Leadership</span>
+            <span class="skill-tag">Problem-solving</span>
+            <span class="skill-tag">Teamwork</span>
+            <span class="skill-tag">Critical Thinking</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2 class="section-title">Featured Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-header">
+            <h3>Weather Forecast App</h3>
+            <div class="project-tech">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>PHP</span>
+              <span>JSON</span>
+              <span>OpenWeather API</span>
+            </div>
+          </div>
+          <p>A dynamic weather application that provides real-time weather information using modern web technologies. Features include current weather conditions, forecasts, and location-based weather data.</p>
+          <div class="project-links">
+            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+            <a href="#" class="project-link"><i class="fab fa-github"></i> Source Code</a>
+          </div>
+        </div>
+        
+        <div class="project-card">
+          <div class="project-header">
+            <h3>Suspect Detector</h3>
+            <div class="project-tech">
+              <span>Raspberry Pi</span>
+              <span>Python</span>
+              <span>Facial Recognition</span>
+              <span>Computer Vision</span>
+            </div>
+          </div>
+          <p>An innovative security system using Raspberry Pi and advanced facial recognition technology. Provides real-time monitoring and detection capabilities for security applications.</p>
+          <div class="project-links">
+            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+            <a href="#" class="project-link"><i class="fab fa-github"></i> Source Code</a>
+          </div>
+        </div>
+        
+        <div class="project-card">
+          <div class="project-header">
+            <h3>Women Shuttle & Safety Platform</h3>
+            <div class="project-tech">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>Laravel</span>
+              <span>MySQL</span>
+            </div>
+          </div>
+          <p>A comprehensive safety platform designed specifically for women's transportation and security needs. Features include real-time tracking, emergency alerts, and safety resources.</p>
+          <div class="project-links">
+            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+            <a href="#" class="project-link"><i class="fab fa-github"></i> Source Code</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="experience">
+    <div class="container">
+      <h2 class="section-title">Professional Experience</h2>
+      <div class="experience-timeline">
+        <div class="experience-item">
+          <div class="experience-header">
+            <h3>Debugger Studio</h3>
+            <span class="experience-period">2021 - 2023</span>
+          </div>
+          <p class="experience-role">WordPress Developer & Performance Analyst</p>
+          <ul class="experience-details">
+            <li>Developed and maintained WordPress websites for clients</li>
+            <li>Conducted performance analysis and optimization</li>
+            <li>Implemented custom themes and plugins</li>
+            <li>Provided technical support and troubleshooting</li>
+          </ul>
+        </div>
+        
+        <div class="experience-item">
+          <div class="experience-header">
+            <h3>Content Writing</h3>
+            <span class="experience-period">2021 - 2022</span>
+          </div>
+          <p class="experience-role">Content Strategist & Writer</p>
+          <ul class="experience-details">
+            <li>Developed content strategies for various platforms</li>
+            <li>Conducted thorough research and analysis</li>
+            <li>Created engaging and SEO-optimized content</li>
+            <li>Analyzed engagement metrics and performance</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2 class="section-title">Get In Touch</h2>
+      <div class="contact-content">
+        <div class="contact-info">
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <div class="contact-details">
+              <h4>Email</h4>
+              <a href="mailto:mostakshahriarakib55@gmail.com">mostakshahriarakib55@gmail.com</a>
+            </div>
+          </div>
+          
+          <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <div class="contact-details">
+              <h4>Phone</h4>
+              <a href="tel:+8801717415631">+8801717415631</a>
+            </div>
+          </div>
+          
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <div class="contact-details">
+              <h4>Location</h4>
+              <span>Beraid, Bagan Bari, Badda, Dhaka</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="social-links">
+          <a href="https://github.com/Shahriarakib21" target="_blank" class="social-link">
+            <i class="fab fa-github"></i>
+            <span>GitHub</span>
+          </a>
+          <a href="https://linkedin.com/in/shahriar-akib-b74371311" target="_blank" class="social-link">
+            <i class="fab fa-linkedin"></i>
+            <span>LinkedIn</span>
+          </a>
+          <a href="https://debuggersstudio.com/" target="_blank" class="social-link">
+            <i class="fas fa-globe"></i>
+            <span>Website</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Shahriar Akib. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
